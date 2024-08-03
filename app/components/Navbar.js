@@ -92,7 +92,7 @@ export default function Navbar() {
               </a>
             </Popover.Group>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <a href="/support" className="whitespace-nowrap text-base font-font  text-nine text-gray-500 hover:text-gray-900">
+              <a href="/Support" className="whitespace-nowrap text-base font-font  text-nine text-gray-500 hover:text-gray-900">
               Support
               </a>
               <a
@@ -153,7 +153,7 @@ export default function Navbar() {
               <div className="py-6 px-5 space-y-6">
                 <div>
                   <a
-                    href="/support"
+                    href="/Support"
                     className="w-full flex items-center font-font justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-one hover:bg-two"
                   >
                     Support
