@@ -1,10 +1,11 @@
 "use client";
-import React, { useState } from "react";
-import { useRouter } from "next/navigation";
-import { Fragment } from "react";
-import { Transition } from "@headlessui/react";
-import { CheckCircleIcon } from "@heroicons/react/outline";
-import { XIcon } from "@heroicons/react/solid";
+import {React}  from "react";
+import {useState}   from "react";
+import  {useRouter}  from "next/navigation";
+import  {Fragment}  from "react";
+import  {Transition}  from "@headlessui/react";
+import {CheckCircleIcon}  from "@heroicons/react/outline";
+import  {XIcon}  from "@heroicons/react/solid";
 
 export default function Contact() {
   const [result, setResult] = useState("");
