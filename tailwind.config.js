@@ -15,7 +15,7 @@ module.exports = {
     colors: {
       
       'one': '#125C13',
-      'two': '#4AA96C',
+      'two': '#12372A',
       'three': '#00ADB5',
       'nine': '#1B1C25',
       'white': '#FFFFFF',
