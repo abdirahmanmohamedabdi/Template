@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, Fragment } from "react";
+import React, { useState, Fragment, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Transition } from "@headlessui/react";
 import { CheckCircleIcon } from "@heroicons/react/outline";
@@ -11,12 +11,14 @@ export default function Contact() {
   const router = useRouter();
   const [state, handleSubmit] = useForm("xnnadwvv"); // Replace with your Formspree ID
 
-  if (state.succeeded) {
-    setShowNotification(true);
-    setTimeout(() => {
-      router.push("/");
-    }, 3000); // Redirect after 3 seconds
-  }
+  useEffect(() => {
+    if (state.succeeded) {
+      setShowNotification(true);
+      setTimeout(() => {
+        router.push("/");
+      }, 3000); // Redirect after 3 seconds
+    }
+  }, [state.succeeded, router]);
 
   return (
     <div className="relative bg-white">
