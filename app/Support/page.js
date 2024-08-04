@@ -24,7 +24,7 @@ const Support = () => {
               </p>
               <a href="https://fchwklwlc9b.typeform.com/to/WFFgjBQe" target="_blank">
                 <a className="mt-4 inline-flex font-font items-center px-3 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-two hover:bg-one">
-                  Fill Out Form
+                  Fill Out The Form
                 </a>
               </a>
             </li>
