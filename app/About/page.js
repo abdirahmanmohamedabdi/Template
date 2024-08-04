@@ -35,24 +35,7 @@ export default function Example() {
                   KilimoChapChap was born out of a deep understanding of the challenges that small-scale farmers face. Since our founding in 2021, we have grown into a trusted partner for farmers across Kenya, helping them achieve better yields and improve their livelihoods.
                 </p>
               </div>
-              <div className="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
-                  >
-                    Contact Us
-                  </a>
-                </div>
-                <div className="rounded-md shadow ml-4">
-                  <a
-                    href="#"
-                    className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-green-700 bg-white hover:bg-green-50 sm:px-8"
-                  >
-                    Learn More
-                  </a>
-                </div>
-              </div>
+             
             </div>
             <div className="mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">
               <svg
