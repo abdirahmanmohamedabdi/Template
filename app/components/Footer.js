@@ -5,7 +5,7 @@
     main: [
       { name: 'About', href: '/About' },
       { name: 'Contact', href: '/Contact' },
-      { name: 'Support', href: '#' },
+      { name: 'Support', href: '/Support' },
     
     ],
     social: [
